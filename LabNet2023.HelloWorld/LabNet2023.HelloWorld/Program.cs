@@ -10,6 +10,9 @@ namespace LabNet2023.HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.Clear();
             Console.WriteLine("Hello World");
             Console.ReadKey();
         }
